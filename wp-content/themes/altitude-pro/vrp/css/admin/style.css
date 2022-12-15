@@ -1,0 +1,83 @@
+#abe-plugin {
+    padding: 10px;
+    border-radius: 0.2rem;
+    width: 97%;
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.abe-tiles {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.abe-tiles .tile {
+    flex-basis: 22%;
+    padding: 10px;
+    background: #fff;
+    border-radius: 0.2rem;
+    box-shadow: 0px 0px 4px 0px #0000001a;
+    margin: 10px;
+    align-self: stretch;
+    min-width: 300px;
+}
+
+.abe-tiles .tile input {
+    width: 100%;
+    border: 0;
+    background: #f3f3f3;
+    border-radius: 0;
+}
+
+.abeStatus span {
+    padding: 5px;
+    width: 20%;
+    text-align: center;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    margin: 10px 0px;
+}
+
+.abeStatus span.success {
+    color: #369e00;
+}
+
+.abeStatus span.error {
+    color: #dc3232;
+}
+
+#abeTabs ul li {
+    display: inline-block;
+}
+
+#abeTabs ul {
+    border-bottom: 2px solid #555d66;
+}
+
+#abeTabs ul li a {
+    margin-right: 10px;
+    display: block;
+    margin-left: 10px;
+    padding: 10px;
+    background: #ffffff;
+    min-width: 100px;
+    border-top: 1px solid #bdbdbd;
+    border-right: 1px solid #bdbdbd;
+    border-left: 1px solid #bdbdbd;
+    border-radius: 5px 5px 0px 0px;
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+#abeTabs ul li a:hover {
+    background: #d0d0d0;
+}
+
+#abeTabs ul li.ui-tabs-active a {
+    background: #016087;
+    color: #fff;
+}
